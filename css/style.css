@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 300px;
+  padding: 10px;
+  line-height: 1.5em;
+  font-size: 16px;
+  font-family: "Verdana";
+  color:#2c3e50;
+
+}
+
+header{
+  margin-bottom: .5em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.content__item {
+  padding:10px;
+  float:left;
+  width: 40%;
+}
+.content__sep {
+  width: 20%;
+  float: left;
+  padding: 17px 0;
+  text-align: center;
+}
+input {
+  padding: 10px;
+  width:100%;
+}
+
+.cf {
+  *zoom: 1;
+}
+.cf:before, .cf:after {
+  content: '';
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
